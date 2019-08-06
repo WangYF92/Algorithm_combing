@@ -122,7 +122,6 @@ MSE 和 RMSE 二者是呈正相关的，MSE 值大，RMSE 值也大，所以在�
 * y:函数值，形状如 [n_samples, n_targets]
 * sample_weight： 每个样本的个体权重,形状如[n_samples]
 
-**参考：**[scikit-learn (sklearn) 官方文档中文版（sklearn版本0.21.3）](https://sklearn.apachecn.org/docs/0.21.3/)
 > get_params([deep])  # 获取参数估计量
 >
 > set_params(**params) # 设置参数估计量
@@ -134,3 +133,5 @@ MSE 和 RMSE 二者是呈正相关的，MSE 值大，RMSE 值也大，所以在�
 * X;训练数据，形状如 [n_samples,n_features]
 * y;关于X的真实函数值，形状如 (n_samples) or (n_samples, n_outputs)
 * sample_weight：样本权重
+
+**参考：**[scikit-learn (sklearn) 官方文档中文版（sklearn版本0.21.3）](https://sklearn.apachecn.org/docs/0.21.3/)
